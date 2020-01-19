@@ -1,0 +1,107 @@
+.header {
+
+   display: flex ;
+   background-color:whitesmoke;
+   justify-content: space-evenly;
+   
+      
+ 
+}
+
+
+.header p {
+
+  margin-right:8px;
+  font-weight: bold;
+
+}
+ .headertext{
+ 
+ font-weight: bold;
+
+}
+
+
+
+.headerbutton{
+  color:red ;
+  cursor: pointer;
+  font-weight: 600 ;
+}
+
+.categories {
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+  font-weight: 700;
+  font-weight: bold;
+}
+.searchbar {
+  width: 200px;
+  height: 30px;
+border-radius: 20px;
+border-width: 1px;
+background-color:rgb(100, 100, 100);
+padding: 4px;
+color: white  ;
+font-weight: bolder;
+
+
+
+
+}
+
+.gdp{
+font-weight: bold;
+
+
+}
+
+.bag {
+font-weight: bold;
+
+
+  
+}
+
+
+.headerleft{
+display: flex;
+
+}
+
+
+.options 
+{
+
+display: flex;
+align-self:center ;
+
+
+}
+
+.headerright {
+justify-content: center;
+display:flex;
+align-items:center;
+
+
+}
+
+.baglogo {
+margin-left: 50px;
+}
+.headertwo {
+  display: flex ;
+   background-color:rgb(31, 30, 30);
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.optionstwo {
+display:flex;
+color: white;
+align-items: center;
+
+}
