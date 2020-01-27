@@ -47,10 +47,26 @@ export default class Body extends React.Component {
         </div>
         <div className="bodycontent">
           <div className="sideNav">
-            <p>aadadadad</p>
+            <p className="filter">Filter Items</p>
+            <hr></hr>
+            <p className="gender">Gender</p>
+            <p className="catz">categories</p>
+            <hr></hr>
+            <p className="colors">Colors</p>
+            <div className="colorpicker">
+              <div className="c1"></div>
+              <div className="c2"></div>
+              <div className="c3"></div>
+              <div className="c4"></div>
+              <div className="c5"></div>
+              <div className="c6"></div>
+            </div>
+            <hr></hr>
+            <p className="sizes"> Sizes </p>
           </div>
           <div className="grid-container">
             {this.state.items.map(element => (
+              // calls each element of the array and return it in an array that contains the result such as element
               <GridItem itemName={element.name} itemImage={element.thumbnail} />
             ))}
           </div>

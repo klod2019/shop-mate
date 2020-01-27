@@ -8,7 +8,7 @@
 
 .header p {
   margin-right: 8px;
-  /* font-weight: bold; */
+  font-weight: bold;
 }
 
 .headertext {
@@ -229,6 +229,7 @@
   margin-right: 10%;
   margin-left: 10%;
   padding-top: 30px;
+  padding-left: 25%;
 }
 
 .leftcat {
@@ -317,4 +318,104 @@
 .bodycontent {
   flex-direction: row;
   display: flex;
+}
+
+.sideNav {
+  background-color: rgb(218, 213, 213);
+  padding: 100px;
+  position: absolute;
+  left: 30px;
+  padding-top: 4%;
+  margin: 50px;
+  margin-left: 3%;
+}
+
+.filter {
+  font-weight: bold;
+}
+
+.gender {
+  padding-top: 20px;
+  color: #5f5d5d;
+  cursor: pointer;
+}
+
+.catz {
+  color: #5f5d5d;
+  cursor: pointer;
+}
+
+.colors {
+  font-weight: bolder;
+  color: #5f5d5d;
+}
+
+dots {
+  list-style-type: none;
+  background: white;
+  -webkit-filter: blur(5px) contrast(10);
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: -10px;
+  padding-right: 10px;
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+.c1 {
+  cursor: pointer;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(20, 0, 0, 0.2);
+  background-color: red;
+}
+.c2 {
+  cursor: pointer;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(20, 0, 0, 0.2);
+  background-color: pink;
+}
+
+.c3 {
+  cursor: pointer;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(20, 0, 0, 0.2);
+  background-color: yellow;
+}
+
+.c4 {
+  cursor: pointer;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(20, 0, 0, 0.2);
+  background-color: green;
+}
+
+.c5 {
+  cursor: pointer;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border: 1px solid rgba(20, 0, 0, 0.2);
+  background-color: blue;
+}
+
+.sizes {
+  padding-top: 40px;
+  font-weight: bolder;
 }
